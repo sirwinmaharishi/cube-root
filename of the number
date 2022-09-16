@@ -1,0 +1,11 @@
+#include <stdio.h>
+// computing the cube root..
+int main()
+{
+    float number, cubeRoot;
+    printf("enter any number");
+    scanf("%f",&number); 
+    cubeRoot =  cbrtf(number); 
+    printf("Cube root of %.2f =  %.2f", number, cubeRoot);
+    return (0);
+}
